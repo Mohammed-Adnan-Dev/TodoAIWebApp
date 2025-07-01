@@ -17,13 +17,13 @@
     
     <!-- Login page mapping -->
     <servlet>
-        <servlet-name>index</servlet-name>
-        <jsp-file>/index.html</jsp-file>
+        <servlet-name>login</servlet-name>
+        <jsp-file>/login.html</jsp-file>
     </servlet>
 
     <servlet-mapping>
-        <servlet-name>index</servlet-name>
-        <url-pattern>/index.html</url-pattern>
+        <servlet-name>login</servlet-name>
+        <url-pattern>/login.html</url-pattern>
     </servlet-mapping>
 
     <!-- Set login.jsp as welcome file -->
